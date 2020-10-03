@@ -11,75 +11,71 @@
       <!-- Compiled and minified CSS -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
       <link href="css/style.css" rel="stylesheet" type="text/css" />
       <title>Budapest</title>
    </head>
-   <body>    
-     <div class="hero-image">
-      <header> 
-   <div class="navbar text-white">
-   <ul id="dropdown1" class="dropdown-content">
-  <li><a href="#!">Deutsch</a></li>
-  <li class="active"><a href="#!">English</a></li>
-  <li><a href="#!">Français</a></li>
-  <li><a href="#!">Magyar</a></li>
-</ul>
-         <nav>
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a href="#" class="brand-logo"> <img src="/media/BP-logo.png "> </a>
+   <body>
+      <div class="hero-image">
+         <header>
+            <div class="navbar text-white">
+               <ul id="dropdown1" class="dropdown-content">
+                  <li><a href="#!">Deutsch</a></li>
+                  <li class="active"><a href="#!">English</a></li>
+                  <li><a href="#!">Français</a></li>
+                  <li><a href="#!">Magyar</a></li>
+               </ul>
+               <nav>
+                  <div class="container">
+                     <div class="nav-wrapper">
+                        <a href="#" class="brand-logo"> <img src="/media/BP-logo.png "> </a>
                         <a href="#" data-target="nav-mobile" class="sidenav-trigger">
-                            <i class="fa fa-bars"></i>   
+                        <i class="fa fa-bars"></i>   
                         </a>
-                    <ul class="right hide-on-med-and-down"> 
-                        <li href="#lorem">
-                        <a> Lorem ipsum </a>
-                        </li>
-                        <li href="#consectetur">
-                         <a> Consectetur </a>
-                        </li>
-                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="fa fa-chevron-down"></i></a></li>
-                    </ul>
-                </div>
+                        <ul class="right hide-on-med-and-down">
+                           <li href="#lorem">
+                              <a> Lorem ipsum </a>
+                           </li>
+                           <li href="#consectetur">
+                              <a> Consectetur </a>
+                           </li>
+                           <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">En<i class="fa fa-chevron-down"></i></a></li>
+                            <button class="menu-btn text-blue">  Chat  <img src="/media/icn-bubble-negative.png ">  </button>
+                            <button class="menu-btn text-blue">  Login <img src="/media/icn-login-negative.png "> </button>
+                        </ul>
+                     </div>
+                  </div>
+               </nav>
             </div>
-         </nav>
+            <ul class="sidenav" id="nav-mobile">
+               <li href="#lorem">
+                              <a> Lorem ipsum </a>
+                           </li>
+                           <li href="#consectetur">
+                              <a> Consectetur </a>
+                           </li>
+                           <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">En<i class="fa fa-chevron-down"></i></a></li>
+                            <button class="menu-btn text-blue">  Chat  <img src="/media/icn-bubble-negative.png ">  </button>
+                            <button class="menu-btn text-blue">  Login <img src="/media/icn-login-negative.png "> </button>
+            </ul>
+         </header>
+         <div class="container">
+            <div class="hero-text">
+               <h1 class="text-light">Welcome to Budapest!</h1>
+               <p class="text-white">Budapest Things to do - detailed info about things to do: <br> sightseeing, events, restaurants, nightlife, shopping, pubs, bars, <br> casinos and more...</p>
+               <button class="text-blue booking">START BOOKING!</button>
+            </div>
+         </div>
       </div>
-      <ul class="sidenav" id="nav-mobile"> 
-                                        <li href="#home">
-                                            <a> Home </a>
-                                        </li>
-                                        <li href="#search">
-                                        <a> Search </a>
-                                        </li>
-                                        <li href="#topics">
-                                        <a> Topics </a>
-                                        </li>
-                                        
-    </ul>
-    </header>
-<div class="container">  
-  <div class="hero-text">
-    <h1 class="text-light">Welcome to Budapest!</h1>
-    <p class="text-white">Budapest Things to do - detailed info about things to do: <br> sightseeing, events, restaurants, nightlife, shopping, pubs, bars, <br> casinos and more...</p>
-    <button class="text-blue booking">START BOOKING!</button>
-  </div>
-</div>
-</div>
-    
-        
-
-  
-      
       <script class="text/javascript">
-    $(document).ready(function(){
-    $('.sidenav').sidenav();
-    $(".dropdown-trigger").dropdown();
-
-  });
+         $(document).ready(function(){
+         $('.sidenav').sidenav();
+         $(".dropdown-trigger").dropdown();
          
-          
+         });
+              
+               
+           
       </script>
    </body>
 </html>
