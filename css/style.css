@@ -22,7 +22,7 @@ line-height: 15px;
 
 
 .hero-image {
-	background-image: linear-gradient(rgba(1, 69, 147, 0.7), rgba(0, 0, 0, 0.5)), url('picture-bg.jpg');
+	background-image: linear-gradient(rgba(1, 69, 147, 0.7), rgba(0, 0, 0, 0.5)), url('media/picture-bg.jpg');
 	height: 70%;
 	background-position: left;
 	background-repeat: no-repeat;
