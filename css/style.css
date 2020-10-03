@@ -68,3 +68,14 @@ line-height: 15px;
 .text-white {
 	color: #fff;
 }
+
+.illustration{
+    position: relative;
+    top:75%;
+}
+
+.text-main{
+font-size: 21px;
+line-height: 30px;
+color: #014593;
+}
