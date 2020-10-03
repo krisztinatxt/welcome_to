@@ -1,4 +1,42 @@
-header{
-    background: #014593;
+body, html {
+    height: 100%;
+}
 
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/media/picture-bg.jpg");
+  height: 70%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.booking{
+height: 2rem; 
+width: 135px;
+left: 96px;
+top: 11px;
+border-radius: 0px;
+
+}
+
+.text-blue{
+    color:#014593;
+
+}
+
+.text-light{
+    color:#FFDFBA;
+}
+.text-white{
+    color: #fff;
 }
