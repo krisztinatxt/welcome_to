@@ -1,48 +1,53 @@
-body, html {
-    height: 100%;
-    font-family: 'Open Sans', sans-serif;
+body,
+html {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("/media/picture-bg.jpg");
-  height: 70%;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+	background-image: linear-gradient(rgba(1, 69, 147, 0.7), rgba(0, 0, 0, 0.5)), url("/media/picture-bg.jpg");
+	height: 70%;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
 }
 
 .hero-text {
-  text-align: left;
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
- 
+	text-align: left;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	font-weight: 700;
 }
 
-.booking{
-width:327px;
-height:48px;
-border-radius: 57px;
-background: #FFDFBA;
-line-height: 24px;
-font-size: 16px;
-font-weight: 700;
+.booking {
+	width: 327px;
+	height: 48px;
+	border-radius: 57px;
+	background: #FFDFBA;
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: 700;
 }
 
-.booking:hover{
-    background: #FFDFBA;
+.booking:hover {
+	background: #FFDFBA;
 }
 
-.text-blue{
-    color:#014593;
-
+.text-blue {
+	color: #014593;
+	font-weight: 700;
 }
 
-.text-light{
-    color:#FFDFBA;
+.text-light {
+	color: #FFDFBA;
 }
-.text-white{
-    color: #fff;
+
+.text-white {
+	color: #fff;
 }
