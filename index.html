@@ -20,23 +20,27 @@
      <div class="hero-image">
       <header> 
    <div class="navbar text-white">
+   <ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">Deutsch</a></li>
+  <li class="active"><a href="#!">English</a></li>
+  <li><a href="#!">Français</a></li>
+  <li><a href="#!">Magyar</a></li>
+</ul>
          <nav>
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo"> DCD Call </a>
+                    <a href="#" class="brand-logo"> <img src="/media/BP-logo.png "> </a>
                         <a href="#" data-target="nav-mobile" class="sidenav-trigger">
                             <i class="fa fa-bars"></i>   
                         </a>
                     <ul class="right hide-on-med-and-down"> 
-                        <li href="#home">
-                        <a> Home </a>
+                        <li href="#lorem">
+                        <a> Lorem ipsum </a>
                         </li>
-                        <li href="#search">
-                         <a> Search </a>
+                        <li href="#consectetur">
+                         <a> Consectetur </a>
                         </li>
-                        <li href="#topics">
-                         <a> Topics </a>
-                        </li>
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="fa fa-chevron-down"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -71,6 +75,8 @@
       <script class="text/javascript">
     $(document).ready(function(){
     $('.sidenav').sidenav();
+    $(".dropdown-trigger").dropdown();
+
   });
          
           
