@@ -1,9 +1,10 @@
 body, html {
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/media/picture-bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("/media/picture-bg.jpg");
   height: 70%;
   background-position: left;
   background-repeat: no-repeat;
@@ -21,12 +22,17 @@ body, html {
 }
 
 .booking{
-height: 2rem; 
-width: 135px;
-left: 96px;
-top: 11px;
-border-radius: 0px;
+width:327px;
+height:48px;
+border-radius: 57px;
+background: #FFDFBA;
+line-height: 24px;
+font-size: 16px;
+font-weight: 700;
+}
 
+.booking:hover{
+    background: #FFDFBA;
 }
 
 .text-blue{
