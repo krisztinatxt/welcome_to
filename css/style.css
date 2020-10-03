@@ -1,8 +1,13 @@
+/*Body and html with font settings */
+
 body,
 html {
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
 }
+
+/*Navigation*/
+
 nav{
     background-color: transparent;
     box-shadow: none!important;
@@ -10,17 +15,15 @@ nav{
     }
 
 .menu-btn{
-background: #FFFFFF;
-border-radius: 57px;
-height: 2rem;
-width: 6rem;
-font-size: 13px;
-line-height: 15px;
+    background: #FFFFFF;
+    border-radius: 57px;
+    height: 2rem;
+    width: 6rem;
+    font-size: 13px;
+    line-height: 15px;
 }
 
-
-
-
+/*Hero image with overlay*/
 .hero-image {
 	background-image: linear-gradient(rgba(1, 69, 147, 0.7), rgba(0, 0, 0, 0.5)), url(media/picture-bg.jpg);
 	height: 70%;
@@ -56,6 +59,8 @@ line-height: 15px;
 	background: #FFDFBA;
 }
 
+/*Color reusable classes */
+
 .text-blue {
 	color: #014593;
 	font-weight: 700;
@@ -68,6 +73,8 @@ line-height: 15px;
 .text-white {
 	color: #fff;
 }
+
+/*Illustration container*/
 
 .illustration{
     position: relative;
