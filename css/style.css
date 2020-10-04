@@ -23,6 +23,13 @@ nav{
     line-height: 15px;
 }
 
+.sidenav li>a{
+    color:#014593;
+    font-weight: bold;
+    font-size: 1.625rem;
+    line-height: 2rem;
+}
+
 /*Hero image with overlay*/
 .hero-image {
 	background-image: linear-gradient(rgba(1, 69, 147, 0.7), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/krisztinatxt/welcome_to/main/media/picture-bg.jpg');
