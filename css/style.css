@@ -126,3 +126,9 @@ color: #014593;
     border-radius: 1rem;
     margin-top:30%;
 }
+
+.logged-mobile{
+  margin-top:45%;
+  border: #014593 solid 2px;
+  border-radius: 1rem;
+}
