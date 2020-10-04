@@ -30,6 +30,19 @@ nav{
     line-height: 2rem;
 }
 
+.dropdown-content li>a {
+    color: #AB9A88;
+}
+
+small{
+    color: #014593;
+}
+
+#dropdown2{
+    width: 32rem!important;
+    height: 27rem!important;
+}
+
 /*Hero image with overlay*/
 .hero-image {
 	background-image: linear-gradient(rgba(1, 69, 147, 0.7), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/krisztinatxt/welcome_to/main/media/picture-bg.jpg');
