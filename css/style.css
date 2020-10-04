@@ -132,3 +132,33 @@ color: #014593;
   border: #014593 solid 2px;
   border-radius: 1rem;
 }
+
+/*==================================================
+=                Media Queries             =
+==================================================*/
+
+
+/*** Small mobile devices ***/
+
+
+/*** Tested on Moto G4, Galaxy S5, Pixel2, Pixel 2XL, Iphone 5/SE, Iphone 6/7/8, IphoneX, Iphone 6/7/8 Plus, IphoneX, Ipad and Ipad Pro ***/
+
+@media only screen and (min-width: 275px) and (max-width: 412px) {
+
+.welcome{
+    font-size:2rem;
+}
+
+.description{
+    font-size:1rem;
+}
+.booking{
+    width: 12rem;
+    border-radius: 2rem;
+	background: #FFDFBA;
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: 700;
+    }
+
+}
