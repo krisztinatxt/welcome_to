@@ -118,3 +118,11 @@ font-size: 21px;
 line-height: 30px;
 color: #014593;
 }
+
+/*Logged in page */
+
+.logged{
+    border: #014593 solid 2px;
+    border-radius: 1rem;
+    margin-top:30%;
+}
