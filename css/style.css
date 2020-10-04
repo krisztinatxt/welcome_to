@@ -43,6 +43,16 @@ small{
     height: 27rem!important;
 }
 
+.booking-mobile{
+    width: 15rem;
+    border-radius: 3.5625rem;
+	background: #FFDFBA;
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: 700;
+    
+}
+
 /*Hero image with overlay*/
 .hero-image {
 	background-image: linear-gradient(rgba(1, 69, 147, 0.7), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/krisztinatxt/welcome_to/main/media/picture-bg.jpg');
