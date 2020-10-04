@@ -1,249 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-	<!-- Materlialize CSS, Google Fonts, FontAwesome, my CSS file -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<!-- Compiled and minified CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-	<!-- Compiled and minified JavaScript -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<title>Budapest</title>
-</head>
-
-<body>
-	<!--Hero image with navbar and button on it
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+      <!-- Materlialize CSS, Google Fonts, FontAwesome, my CSS file -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <link href="css/style.css" rel="stylesheet" type="text/css" />
+      <title>Budapest</title>
+   </head>
+   <body>
+      <!--Hero image with navbar and button on it
          Collapsable navbar on small devices-->
-	<div class="hero-image">
-		<header>
-			<div class="navbar text-white">
-				<ul id="dropdown1" class="dropdown-content">
-					<li> <a href="#!">Deutsch</a> </li>
-					<li class="active"> <a href="#!">English</a> </li>
-					<li> <a href="#!">Français</a> </li>
-					<li> <a href="#!">Magyar</a> </li>
-				</ul>
-				<nav>
-					<div class="container">
-						<div class="nav-wrapper">
-							<a href="index.html" class="brand-logo"> <img src="./media/BP-logo.png "> </a>
-							<a href="#" data-target="nav-mobile" class="sidenav-trigger"> <i class="fa fa-bars"></i> </a>
-							<ul class="right hide-on-med-and-down">
-								<ul id="dropdown2" class="dropdown-content">
-									<div class="row">
-										<div class="col m6 s6">
-											<li class="row">
-												<div class="col m3"> <img src="./media/icn-capitol.png "> </div>
-												<div class="col m9"> <a href="#!" class="text-brown">Sad Lacinia</a> <small class="text-blue"> Magna tincidunt venenatis </small> </div>
-											</li>
-										</div>
-										<div class="col m6 s6">
-											<li class="row">
-												<div class="col m3"> <img src="./media/icn-motorcycle.png "> </div>
-												<div class="col m9"> <a href="#!" class="text-brown">Praesent vene </a> <small class="text-blue"> Quis enim faucibus nisi convallis </small> </div>
-											</li>
-										</div>
-									</div>
-									<div class="divider"></div>
-									<div class="row">
-										<div class="col m6 s6">
-											<li class="row">
-												<div class="col m3"> <img src="./media/icn-passport.png "> </div>
-												<div class="col m9"> <a href="#!" class="text-brown">Praesent cons </a> <small class="text-blue"> Felis sit amet vehicula molestie </small> </div>
-											</li>
-										</div>
-										<div class="col m6 s6">
-											<li class="row">
-												<div class="col m3"> <img src="./media/icn-bikini.png "> </div>
-												<div class="col m9"> <a href="#!" class="text-brown">Etiam finibus </a> <small class="text-blue"> Curabitur lobortis pellentesque congue </small> </div>
-											</li>
-										</div>
-									</div>
-									<div class="divider"></div>
-									<div class="row">
-										<div class="col m6 s6">
-											<li class="row">
-												<div class="col m3"> <img src="./media/icn-ferris-wheel.png "> </div>
-												<div class="col m9"> <a href="#!" class="text-brown">Aenean lacinia </a> <small class="text-blue"> Class aptent taciti sociosqu ad </small> </div>
-											</li>
-										</div>
-										<div class="col m6 s6">
-											<li class="row">
-												<div class="col m3"> <img src="./media/icn-cable-car-cabin.png "> </div>
-												<div class="col m9"> <a href="#!" class="text-brown">Duis varius</a> <small class="text-blue"> Praesent suscipit venenatis justo </small> </div>
-											</li>
-										</div>
-									</div>
-									<div class="divider"></div>
-								</ul>
-								<ul id="dropdown3" class="dropdown-content">
-									<li> <a href="#!">Adipiscing elit</a> </li>
-									<li> <a href="#!">Cogito ergo sum</a> </li>
-								</ul>
-								<ul id="dropdown4" class="dropdown-content">
-									<li> <a href="#!">Curabitur</a> </li>
-									<li> <a href="#!"> Ut ullamcorper</a> </li>
-									<li> <a href="#!">Curabitur</a> </li>
-									<li> <a href="#!"> Vestibulum</a> </li>
-									<li> <a href="#!">Orci varius</a> </li>
-									<li> <a href="#!"> Ut ullamcorper</a> </li>
-									<li> <a href="#!">Donec vel eros</a> </li>
-								</ul>
-								<li> <a class="dropdown-trigger" href="#!" data-target="dropdown2">Lorem ipsum</a> </li>
-								<li> <a class="dropdown-trigger" href="#!" data-target="dropdown3">Dolorsit</a> </li>
-								<li> <a class="dropdown-trigger" href="#!" data-target="dropdown4">Consectetur</a> </li>
-								<li> <a class="dropdown-trigger" href="#!" data-target="dropdown1">En <i class="fa fa-chevron-down"></i></a> </li>
-								<li>
-									<button class="menu-btn text-blue right-align"> Chat <img src="./media/icn-bubble-negative.png "> </button>
-								</li>
-                                <li> <a class="dropdown-trigger" href="#!" data-target="dropdown5"><img class="logged" src="./media/Bitmap.png "></a> </li>
-								<ul id="dropdown5" class="dropdown-content">
-									<li> <a href="#!">Dashboard</a> </li>
-                                    <div class="divider"></div>
-									<li> <a href="#!">My Account</a> </li>
-                                    <div class="divider"></div>
-                                    <li> <a href="#!">Logout</a> </li>
-                                    <div class="divider"></div>
-								</ul>
-							</ul>
-						</div>
-					</div>
-				</nav>
-			</div>
-			<!--Side navigation-mobile devices -->
-			<ul class="sidenav" id="nav-mobile">
-				<div class="navbar text-blue">
-					<ul id="dropdown1" class="dropdown-content text-blue">
-						<li> <a href="#!">Deutsch</a> </li>
-						<li class="active"> <a href="#!">English</a> </li>
-						<li> <a href="#!">Français</a> </li>
-						<li> <a href="#!">Magyar</a> </li>
-					</ul>
-					<div class="center">
-						<a href="index.html" class="brand-logo"> <img src="./media/BP-logo-negative.png "> </a>
-					</div>
-                    <div class="row">
-                        <div class="col m6">
-                            <li>
-                                <img class="logged-mobile" src="./media/Bitmap.png ">
-                            </li>
-                    </div>
-                    <div class="col m6">
+      <div class="hero-image">
+         <header>
+            <div class="navbar text-white">
+               <ul id="dropdown6" class="dropdown-content">
+                  <li> <a href="#!">Deutsch</a> </li>
+                  <li class="active"> <a href="#!">English</a> </li>
+                  <li> <a href="#!">Français</a> </li>
+                  <li> <a href="#!">Magyar</a> </li>
+               </ul>
+               <nav>
+                  <div class="container">
+                     <div class="nav-wrapper">
+                        <a href="index.html" class="brand-logo"> <img src="./media/BP-logo.png " alt="logo"> </a>
+                        <a href="#" data-target="nav-mobile" class="sidenav-trigger"> <i class="fa fa-bars"></i> </a>
+                        <ul class="right hide-on-med-and-down">
+                           <ul id="dropdown2" class="dropdown-content">
+                              <div class="row">
+                                 <div class="col m6 s6">
+                                    <li class="row">
+                                       <div class="col m3"> <img src="./media/icn-capitol.png " alt="capitol"> </div>
+                                       <div class="col m9"> <a href="#!" class="text-brown">Sad Lacinia</a> <small class="text-blue"> Magna tincidunt venenatis </small> </div>
+                                    </li>
+                                 </div>
+                                 <div class="col m6 s6">
+                                    <li class="row">
+                                       <div class="col m3"> <img src="./media/icn-motorcycle.png " alt="motor"> </div>
+                                       <div class="col m9"> <a href="#!" class="text-brown">Praesent vene </a> <small class="text-blue"> Quis enim faucibus nisi convallis </small> </div>
+                                    </li>
+                                 </div>
+                              </div>
+                              <div class="divider"></div>
+                              <div class="row">
+                                 <div class="col m6 s6">
+                                    <li class="row">
+                                       <div class="col m3"> <img src="./media/icn-passport.png " alt="passport"> </div>
+                                       <div class="col m9"> <a href="#!" class="text-brown">Praesent cons </a> <small class="text-blue"> Felis sit amet vehicula molestie </small> </div>
+                                    </li>
+                                 </div>
+                                 <div class="col m6 s6">
+                                    <li class="row">
+                                       <div class="col m3"> <img src="./media/icn-bikini.png " alt="bikini"> </div>
+                                       <div class="col m9"> <a href="#!" class="text-brown">Etiam finibus </a> <small class="text-blue"> Curabitur lobortis pellentesque congue </small> </div>
+                                    </li>
+                                 </div>
+                              </div>
+                              <div class="divider"></div>
+                              <div class="row">
+                                 <div class="col m6 s6">
+                                    <li class="row">
+                                       <div class="col m3"> <img src="./media/icn-ferris-wheel.png " alt="ferris"> </div>
+                                       <div class="col m9"> <a href="#!" class="text-brown">Aenean lacinia </a> <small class="text-blue"> Class aptent taciti sociosqu ad </small> </div>
+                                    </li>
+                                 </div>
+                                 <div class="col m6 s6">
+                                    <li class="row">
+                                       <div class="col m3"> <img src="./media/icn-cable-car-cabin.png " alt="cable-car"> </div>
+                                       <div class="col m9"> <a href="#!" class="text-brown">Duis varius</a> <small class="text-blue"> Praesent suscipit venenatis justo </small> </div>
+                                    </li>
+                                 </div>
+                              </div>
+                              <div class="divider"></div>
+                           </ul>
+                           <ul id="dropdown3" class="dropdown-content">
+                              <li> <a href="#!">Adipiscing elit</a> </li>
+                              <li> <a href="#!">Cogito ergo sum</a> </li>
+                           </ul>
+                           <ul id="dropdown4" class="dropdown-content">
+                              <li> <a href="#!">Curabitur</a> </li>
+                              <li> <a href="#!"> Ut ullamcorper</a> </li>
+                              <li> <a href="#!">Curabitur</a> </li>
+                              <li> <a href="#!"> Vestibulum</a> </li>
+                              <li> <a href="#!">Orci varius</a> </li>
+                              <li> <a href="#!"> Ut ullamcorper</a> </li>
+                              <li> <a href="#!">Donec vel eros</a> </li>
+                           </ul>
+                           <li> <a class="dropdown-trigger" href="#!" data-target="dropdown2">Lorem ipsum</a> </li>
+                           <li> <a class="dropdown-trigger" href="#!" data-target="dropdown3">Dolorsit</a> </li>
+                           <li> <a class="dropdown-trigger" href="#!" data-target="dropdown4">Consectetur</a> </li>
+                           <li> <a class="dropdown-trigger" href="#!" data-target="dropdown6">En <i class="fa fa-chevron-down"></i></a> </li>
+                           <li>
+                              <button class="menu-btn text-blue right-align"> Chat <img src="./media/icn-bubble-negative.png " alt="bubble-negative"> </button>
+                           </li>
+                           <li> <a class="dropdown-trigger" href="#!" data-target="dropdown5"><img class="logged" src="./media/Bitmap.png " alt="bitmap"></a> </li>
+                           <ul id="dropdown5" class="dropdown-content">
+                              <li> <a href="#!">Dashboard</a> </li>
+                              <div class="divider"></div>
+                              <li> <a href="#!">My Account</a> </li>
+                              <div class="divider"></div>
+                              <li> <a href="#!">Logout</a> </li>
+                              <div class="divider"></div>
+                           </ul>
+                        </ul>
+                     </div>
+                  </div>
+               </nav>
+            </div>
+            <!--Side navigation-mobile devices -->
+            <ul class="sidenav" id="nav-mobile">
+               <div class="navbar text-blue">
+                  <ul id="dropdown1" class="dropdown-content text-blue">
+                     <li> <a href="#!">Deutsch</a> </li>
+                     <li class="active"> <a href="#!">English</a> </li>
+                     <li> <a href="#!">Français</a> </li>
+                     <li> <a href="#!">Magyar</a> </li>
+                  </ul>
+                  <div class="center">
+                     <a href="index.html" class="brand-logo"> <img src="./media/BP-logo-negative.png " alt="logo-negative"> </a>
+                  </div>
+                  <div class="row">
+                     <div class="col m6">
                         <li>
-                            <p> <small>Logged in as </small> <br> Barbara Palvin </p>
+                           <img class="logged-mobile" src="./media/Bitmap.png " alt="bitmap2">
                         </li>
-                    </div>
-                    </div>
-                    <div class="row">
-							<a class="col m6 s6"> <small class="text-brown"> Dashboard </small> </a>
-							<a class="col m6 s6"> </a>
-						</div>
-						<div class="row">
-							<a class="col m6 s6"> <small class="text-brown"> My Account </small> </a>
-							<a class="col m6 s6"> </a>
-						</div>
-					<div class="divider"></div>
-					<li href="#lorem"> <a> Lorem ipsum </a>
-						<div class="row">
-							<a class="col m6 s6"> <small class="text-brown"> Praesent Venetatis? </small> </a>
-							<a class="col m6 s6"> <small class="text-brown"> Praesent Conseq </small> </a>
-						</div>
-						<div class="row">
-							<a class="col m6 s6"> <small class="text-brown"> Etiam Finibus </small> </a>
-							<a class="col m6 s6"> <small class="text-brown"> Aenean Lacinia </small> </a>
-						</div>
-						<div class="row">
-							<a class="col m6 s6"> <small class="text-brown"> Duis Various </small> </a>
-							<a class="col m6 s6"> <small class="text-brown"> Sed Lacinia </small> </a>
-						</div>
-					</li>
-					<div class="divider"></div>
-					<li href="#dolorsit"> <a> Dolorsit </a>
-						<div class="row">
-							<a class="col m6 s6"> <small class="text-brown"> Adipiscing elit </small> </a>
-							<a class="col m6 s6"> <small class="text-brown"> Cogito ergo sum </small> </a>
-						</div>
-					</li>
-					<div class="divider"></div>
-					<li href="#consectetur"> <a> Consectetur </a>
-						<div class="row">
-							<a class="col m6 s6"> <small class="text-brown"> Grande punto </small> </a>
-							<a class="col m6 s6"></a>
-						</div>
-						<div class="row">
-							<a class="col m6 s6"> <small class="text-brown"> Curabitur </small> </a>
-							<a class="col m6 s6"> <small class="text-brown"> Donec vel eros </small> </a>
-						</div>
-						<div class="row">
-							<a class="col m6 s6"> <small class="text-brown"> Ut ullamcorper </small> </a>
-							<a class="col m6 s6"> <small class="text-brown"> Curabitur </small> </a>
-						</div>
-						<div class="row">
-							<a class="col m6 s6"> <small class="text-brown"> Vestibulum </small> </a>
-							<a class="col m6 s6"> <small class="text-brown"> Maecenas </small> </a>
-						</div>
-						<div class="row">
-							<a class="col m6 s6"> <small class="text-brown"> Orci varius </small> </a>
-							<a class="col m6 s6"></a>
-						</div>
-					</li>
-					<div class="divider"></div>
-					<div class="center">
-						<li>
-							<a class="dropdown-trigger" href="#!" data-target="dropdown1"> <img src="./media/icn-pin.png "> English </i>
-							</a>
-						</li>
-					</div>
-					<div class="center">
-						<button class="menu-btn text-blue "> Chat <img src="./media/icn-bubble-negative.png "> </button>
-						<button class="menu-btn text-blue"> Login <img src="./media/icn-login-negative.png "> </button>
-					</div>
-					<div class="divider"></div>
-			</ul>
-		</header>
-		<!--Hero image and text-->
-		<div class="container hero">
-			<div class="row">
-				<div class="col s6 m6">
-					<h1 class="text-light welcome">Welcome to Budapest!</h1> </div>
-			</div>
-			<div class="row">
-				<div class="col s12 m6">
-					<p class="text-white description">Budapest Things to do - detailed info about things to do:
-						<br> sightseeing, events, restaurants, nightlife, shopping, pubs, bars,
-						<br> casinos and more... </p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col s12 m12">
-					<button class="text-blue booking">START BOOKING!</button>
-				</div>
-			</div>
-		</div>
-		</div>
-	</div>
-	<!--Illustration and lorem ipsum-->
-	<div class="container illustration">
-		<div class="row">
-			<div class="col s12 m6"> <img class="responsive-img" src="./media/illustration.png"> </div>
-			<div class="col s12 m6 text-main">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna arcu, tempus nec urna non, lacinia vehicula dolor. Integer pellentesque leo tristique nibh tristique posuere. </p>
-			</div>
-		</div>
-	</div>
-	<!--Materialize JavaScript for sidenavigation and dropdown menu-->
-	<script class="text/javascript">
-	$(document).ready(function() {
-		$('.sidenav').sidenav();
-		$(".dropdown-trigger").dropdown();
-	});
-	</script>
-</body>
-
+                     </div>
+                     <div class="col m6">
+                        <li>
+                           <p> <small>Logged in as </small> <br> Barbara Palvin </p>
+                        </li>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <a class="col m6 s6"> <small class="text-brown"> Dashboard </small> </a>
+                     <a class="col m6 s6"> </a>
+                  </div>
+                  <div class="row">
+                     <a class="col m6 s6"> <small class="text-brown"> My Account </small> </a>
+                     <a class="col m6 s6"> </a>
+                  </div>
+                  <div class="divider"></div>
+                  <li href="#lorem">
+                     <a> Lorem ipsum </a>
+                     <div class="row">
+                        <a class="col m6 s6"> <small class="text-brown"> Praesent Venetatis? </small> </a>
+                        <a class="col m6 s6"> <small class="text-brown"> Praesent Conseq </small> </a>
+                     </div>
+                     <div class="row">
+                        <a class="col m6 s6"> <small class="text-brown"> Etiam Finibus </small> </a>
+                        <a class="col m6 s6"> <small class="text-brown"> Aenean Lacinia </small> </a>
+                     </div>
+                     <div class="row">
+                        <a class="col m6 s6"> <small class="text-brown"> Duis Various </small> </a>
+                        <a class="col m6 s6"> <small class="text-brown"> Sed Lacinia </small> </a>
+                     </div>
+                  </li>
+                  <div class="divider"></div>
+                  <li href="#dolorsit">
+                     <a> Dolorsit </a>
+                     <div class="row">
+                        <a class="col m6 s6"> <small class="text-brown"> Adipiscing elit </small> </a>
+                        <a class="col m6 s6"> <small class="text-brown"> Cogito ergo sum </small> </a>
+                     </div>
+                  </li>
+                  <div class="divider"></div>
+                  <li href="#consectetur">
+                     <a> Consectetur </a>
+                     <div class="row">
+                        <a class="col m6 s6"> <small class="text-brown"> Grande punto </small> </a>
+                        <a class="col m6 s6"></a>
+                     </div>
+                     <div class="row">
+                        <a class="col m6 s6"> <small class="text-brown"> Curabitur </small> </a>
+                        <a class="col m6 s6"> <small class="text-brown"> Donec vel eros </small> </a>
+                     </div>
+                     <div class="row">
+                        <a class="col m6 s6"> <small class="text-brown"> Ut ullamcorper </small> </a>
+                        <a class="col m6 s6"> <small class="text-brown"> Curabitur </small> </a>
+                     </div>
+                     <div class="row">
+                        <a class="col m6 s6"> <small class="text-brown"> Vestibulum </small> </a>
+                        <a class="col m6 s6"> <small class="text-brown"> Maecenas </small> </a>
+                     </div>
+                     <div class="row">
+                        <a class="col m6 s6"> <small class="text-brown"> Orci varius </small> </a>
+                        <a class="col m6 s6"></a>
+                     </div>
+                  </li>
+                  <div class="divider"></div>
+                  <div class="center">
+                     <li>
+                        <a class="dropdown-trigger" href="#!" data-target="dropdown1"> <img src="./media/icn-pin.png " alt="pin"> English </a>
+                     </li>
+                  </div>
+                  <div class="center">
+                     <button class="menu-btn text-blue "> Chat <img src="./media/icn-bubble-negative.png " alt="bubble-negative"> </button>
+                     <button class="menu-btn text-blue"> Login <img src="./media/icn-login-negative.png " alt="login-negative"> </button>
+                  </div>
+                  <div class="divider"></div>
+               </div>
+            </ul>
+         </header>
+         <!--Hero image and text-->
+         <div class="container hero">
+            <div class="row">
+               <div class="col s6 m6">
+                  <h1 class="text-light welcome">Welcome to Budapest!</h1>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col s12 m6">
+                  <p class="text-white description">Budapest Things to do - detailed info about things to do:
+                     <br> sightseeing, events, restaurants, nightlife, shopping, pubs, bars,
+                     <br> casinos and more... 
+                  </p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col s12 m12">
+                  <button class="text-blue booking">START BOOKING!</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--Illustration and lorem ipsum-->
+      <div class="container illustration">
+         <div class="row">
+            <div class="col s12 m6"> <img class="responsive-img" src="./media/illustration.png" alt="illustartion"> </div>
+            <div class="col s12 m6 text-main">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna arcu, tempus nec urna non, lacinia vehicula dolor. Integer pellentesque leo tristique nibh tristique posuere. </p>
+            </div>
+         </div>
+      </div>
+      <!--Materialize JavaScript for sidenavigation and dropdown menu-->
+      <script class="text/javascript">
+         $(document).ready(function() {
+         	$('.sidenav').sidenav();
+         	$(".dropdown-trigger").dropdown();
+         });
+      </script>
+   </body>
 </html>

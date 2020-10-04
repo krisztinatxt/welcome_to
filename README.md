@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+# Welcome to Budapest
 
-You can use the [editor on GitHub](https://github.com/krisztinatxt/welcome_to/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Technologies Used:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- HTML
 
-### Markdown
+- CSS
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- JavaScript
 
-```markdown
-Syntax highlighted code block
+- Materialize.css
 
-# Header 1
-## Header 2
-### Header 3
+- Autoprefixer
 
-- Bulleted
-- List
+- Google Fonts
 
-1. Numbered
-2. List
+- FontAwesome
 
-**Bold** and _Italic_ and `Code` text
+- HTML Validator
 
-[Link](url) and ![Image](src)
-```
+- Responsive Viewer
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Test
 
-### Jekyll Themes
+All codes are validated and beatufied.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/krisztinatxt/welcome_to/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+1. HTML Validator
+- Unfortunatelly the HTML validator doesn't understand the Materialize dropdown menu structure, so I got a bunch of errors because of this saying that : `Element ul not allowed as child of element ul in this context.`
+No other error found.
+2. CSS
+- Valid, no error found.
+- Autoprefixer used.
+3. JavaScript
+- No syntax errors!
 
-### Support or Contact
+The site compatibility was checked using devtools, Responsive Viever,  the AmIresponsive site, and also tested by friend from different devices and browsers.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The site is responsive when you are browsing with: - [x] Google Chrome. - [x] Mozilla Firefox. - [x] Opera.
+Tested devices:
+
+ - laptop, laptop with touch (width 1440px);
+
+ - Moto G4;
+
+ - Galaxy S5;
+
+ - Pixel2, Pixel 2XL;
+
+ - Iphone 5/SE, Iphone 6/7/8;
+
+ - Iphone 6/7/8 Plus, IphoneX;
+
+ - iPhone XR, XS Max;
+
+ - Ipad and Ipad Pro;
+
+ - Xiaomi Redmi 4A;
+
+ - Galaxy S9 Plus, S8 Plus.
