@@ -35,7 +35,11 @@ No other error found.
 
 The site compatibility was checked using devtools, Responsive Viever,  the AmIresponsive site, and also tested by friend from different devices and browsers.
 
-The site is responsive when you are browsing with: - [x] Google Chrome. - [x] Mozilla Firefox. - [x] Opera.
+The site is responsive when you are browsing with:
+ - [x] Google Chrome.
+ - [x] Mozilla Firefox. 
+- [x] Opera.
+
 Tested devices:
 
  - laptop, laptop with touch (width 1440px);
